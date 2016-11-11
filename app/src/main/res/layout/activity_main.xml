@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.daniel.w4d4_homework.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="W4D4_Homework" />
+
+    <Button
+        android:id="@+id/m_videoPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Video Player"
+        android:background="@color/colorDeepPurple"/>
+
+    <Button
+        android:id="@+id/m_mediaPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Media Player"
+        android:background="@color/colorRed"/>
+    <Button
+        android:id="@+id/m_frgrndService"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Foreground Service"
+        android:background="@color/colorPurple"/>
+
+</LinearLayout>
