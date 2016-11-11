@@ -21,19 +21,22 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:text="Video Player"
-        android:background="@color/colorDeepPurple"/>
+        android:background="@color/colorDeepPurple"
+        android:onClick="doVideoPlayer"/>
 
     <Button
         android:id="@+id/m_mediaPlayer"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:text="Media Player"
-        android:background="@color/colorRed"/>
+        android:background="@color/colorRed"
+        android:onClick="doMediaPlayer"/>
     <Button
         android:id="@+id/m_frgrndService"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:text="Foreground Service"
-        android:background="@color/colorPurple"/>
+        android:background="@color/colorPurple"
+        android:onClick="doForegroundSrvc"/>
 
 </LinearLayout>
