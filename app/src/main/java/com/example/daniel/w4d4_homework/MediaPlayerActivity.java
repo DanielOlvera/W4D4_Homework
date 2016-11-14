@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class MediaPlayerActivity extends AppCompatActivity {
 
@@ -14,6 +15,8 @@ public class MediaPlayerActivity extends AppCompatActivity {
 
     Button strBtn;
     Button stpBtn;
+
+    TextView txtView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
