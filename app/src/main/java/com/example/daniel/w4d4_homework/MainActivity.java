@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -26,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void doForegroundSrvc(View view) {
-        Intent intent = new Intent(this, ForegroundService.class);
+        Intent intent = new Intent(this, ForegroundServiceActivity.class);
         startActivity(intent);
     }
 }
